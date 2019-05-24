@@ -82,7 +82,6 @@
 		36A7192B1D5B0E1A00DC35F5 /* ip.c in Sources */ = {isa = PBXBuildFile; fileRef = 3642CA2A1CEDCC71001E0AAF /* ip.c */; };
 		36A7192C1D5B0E1B00DC35F5 /* ip.c in Sources */ = {isa = PBXBuildFile; fileRef = 3642CA2A1CEDCC71001E0AAF /* ip.c */; };
 		36A7192D1D5B0E1E00DC35F5 /* ip_addr.c in Sources */ = {isa = PBXBuildFile; fileRef = 3642CA2B1CEDCC71001E0AAF /* ip_addr.c */; };
-		36A7192E1D5B0E1E00DC35F5 /* ip_addr.c in Sources */ = {isa = PBXBuildFile; fileRef = 3642CA2B1CEDCC71001E0AAF /* ip_addr.c */; };
 		36A7192F1D5B0E2100DC35F5 /* ip_frag.c in Sources */ = {isa = PBXBuildFile; fileRef = 3642CA2C1CEDCC71001E0AAF /* ip_frag.c */; };
 		36A719301D5B0E2200DC35F5 /* ip_frag.c in Sources */ = {isa = PBXBuildFile; fileRef = 3642CA2C1CEDCC71001E0AAF /* ip_frag.c */; };
 		36A719311D5B0E2D00DC35F5 /* compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 36BC58961CF2A33800E0E367 /* compat.c */; };
@@ -893,6 +892,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 3642C9F41CEDCC60001E0AAF;
@@ -1001,7 +1001,6 @@
 				36A719121D5B0DCC00DC35F5 /* mem.c in Sources */,
 				36A7190C1D5B0D9300DC35F5 /* err.c in Sources */,
 				36A7190E1D5B0DC000DC35F5 /* def.c in Sources */,
-				36A7192E1D5B0E1E00DC35F5 /* ip_addr.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1083,6 +1082,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1134,6 +1134,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1155,7 +1156,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.osx.tun2socks;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1175,7 +1176,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.osx.tun2socks;
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -1195,7 +1196,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.osx.lwip;
 				PRODUCT_NAME = lwip;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.1;
+				SWIFT_VERSION = 5.0;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/lwip";
 			};
 			name = Debug;
@@ -1216,7 +1217,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhuhaow.osx.lwip;
 				PRODUCT_NAME = lwip;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.1;
+				SWIFT_VERSION = 5.0;
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/lwip";
 			};
 			name = Release;
@@ -1239,7 +1240,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/lwip/";
 			};
@@ -1263,7 +1264,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
-				SWIFT_VERSION = 4.1;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/lwip/";
 				VALIDATE_PRODUCT = YES;
@@ -1288,7 +1289,7 @@
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1311,7 +1312,7 @@
 				PRODUCT_NAME = "$(PROJECT_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};

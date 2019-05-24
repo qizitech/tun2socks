@@ -55,6 +55,7 @@
 #include "lwip/autoip.h"
 #include "lwip/stats.h"
 #include "arch/perf.h"
+#include "lwip/ip_addr.h"
 
 #include <string.h>
 
